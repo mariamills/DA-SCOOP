@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DA SCOOP - Our Menu</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar sticky-top navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img
+            src="images/logo.webp"
+            alt=""
+            width="30"
+            height="30"
+            class="d-inline-block align-text-top"
+          />
+          DA SCOOP
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="menu.html">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main content  -->
+    <main>
+      <!-- Contact Section  -->
+      <section class="contact">
+        <div class="container my-5 text-center">
+          <h2 class="display-5">Contact</h2>
+          <p class="fs-5">
+            Have something you'd like to let us know? Get in touch with us!
+          </p>
+          <div class="container border rounded">
+            <!-- Form - This actually sends to my email with the use of EmailJS API -->
+            <form id="form">
+              <div class="my-3">
+                <div class="row">
+                  <div class="col">
+                    <input
+                      name="firstName"
+                      type="text"
+                      class="form-control"
+                      placeholder="First name"
+                      id="firstName"
+                      aria-label="First name"
+                      required
+                    />
+                  </div>
+                  <div class="col">
+                    <input
+                      name="lastName"
+                      type="text"
+                      class="form-control"
+                      placeholder="Last name"
+                      id="lastName"
+                      aria-label="Last name"
+                      required
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="mb-3">
+                <input
+                  name="email"
+                  type="email"
+                  class="form-control"
+                  placeholder="Email"
+                  id="email"
+                  aria-describedby="emailHelp"
+                  required
+                />
+                <div id="emailHelp" class="form-text text-start">
+                  We'll never share your email with anyone else.
+                </div>
+              </div>
+              <div class="mb-3">
+                <input
+                  name="phoneNumber"
+                  type="tel"
+                  class="form-control"
+                  id="phoneNumber"
+                  placeholder="Phone Number"
+                  required
+                />
+              </div>
+              <div class="my-4">
+                <textarea
+                  name="message"
+                  class="form-control"
+                  id="message"
+                  rows="3"
+                  placeholder="Comments"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary mb-3" id="formBtn">
+                Submit
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="text-center text-primary mt-3">
+      <div class="d-md-flex">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img
+              src="images/logo.webp"
+              alt=""
+              width="30"
+              height="30"
+              class="d-inline-block align-text-top"
+            />
+            DA SCOOP
+          </a>
+        </div>
+        <div class="container">
+          123-456-7890 | 123 Main Street | Mon-Fri 9:00AM - 5:00PM
+        </div>
+        <div class="container">
+          <a href=""><i class="bi bi-twitter"></i></a>
+          <a href=""><i class="bi bi-youtube"></i></a>
+          <a href=""><i class="bi bi-github"></i></a>
+          <a href=""><i class="bi bi-linkedin"></i></a>
+        </div>
+      </div>
+    </footer>
+    <!-- Script -->
+    <script src="js/script.js"></script>
+    <!-- EmaiLJS Scripts  -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      emailjs.init("NgQXar2G5Tkt-X9iG");
+    </script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
