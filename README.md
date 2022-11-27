@@ -17,9 +17,14 @@ On the fictitious website DA SCOOP, customers can "order" particular flavours by
 
 ## Demo
 
-To be added
+https://da-scoop-mariamills.vercel.app/
 
 ## Screenshots
+![screencapture-da-scoop-di8azybjr-mariamills-vercel-app-menu-html-2022-11-27-15_20_36](https://user-images.githubusercontent.com/25801484/204157832-d52c3e82-620b-4bcc-ade0-0d818393c3c5.png)
 
-![Component Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
+
+## Video Demo
+
+[Video Demonstration](https://www.youtube.com/watch?v=jXPTOBmbwKA)
 
