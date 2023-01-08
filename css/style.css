@@ -11,6 +11,14 @@ a:hover {
   color: inherit;
 }
 
+ul {
+  list-style: none;
+}
+
+li {
+  padding-bottom: 0.2rem;
+}
+
 /* Hero Section  */
 .hero {
   height: 80vh;
